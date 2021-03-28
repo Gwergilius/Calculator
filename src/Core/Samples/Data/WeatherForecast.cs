@@ -1,6 +1,6 @@
 using System;
 
-namespace Gwergilius.Calculator.Frontend.Server.Data
+namespace Gwergilius.Calculator.Core.Samples.Data
 {
     public class WeatherForecast
     {

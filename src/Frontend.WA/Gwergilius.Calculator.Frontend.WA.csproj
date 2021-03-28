@@ -10,4 +10,9 @@
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Components\Gwergilius.Calculator.Components.csproj" />
+    <ProjectReference Include="..\Core\Gwergilius.Calculator.Core.csproj" />
+  </ItemGroup>
+
 </Project>

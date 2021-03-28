@@ -1,8 +1,10 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Gwergilius.Calculator.Core.Samples.Data;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace Gwergilius.Calculator.Frontend.Server.Data
+namespace Gwergilius.Calculator.Core.Samples.Data
 {
     public class WeatherForecastService
     {
@@ -20,6 +22,18 @@ namespace Gwergilius.Calculator.Frontend.Server.Data
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)]
             }).ToArray());
+        }
+    }
+}
+
+namespace Microsoft.Extensions.DependencyInjection
+{
+    public static class ServiceCollectionExtensions
+    {
+        public static IServiceCollection AddWheaterForecast(this IServiceCollection services)
+        {
+            services.AddSingleton<WeatherForecastService>();
+            return services;
         }
     }
 }

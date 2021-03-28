@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gwergilius.Calculator.Front
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gwergilius.Calculator.Frontend.Server", "Frontend.Server\Gwergilius.Calculator.Frontend.Server.csproj", "{AB3E18D7-5D25-4D6C-8E99-D1E39295FAE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gwergilius.Calculator.Core", "Core\Gwergilius.Calculator.Core.csproj", "{221D5B47-8040-4D28-8146-C2E8EB647FF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gwergilius.Calculator.Components", "Components\Gwergilius.Calculator.Components.csproj", "{BFAF0177-0E9E-4428-9805-5FBCCC8F5ACB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{AB3E18D7-5D25-4D6C-8E99-D1E39295FAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB3E18D7-5D25-4D6C-8E99-D1E39295FAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB3E18D7-5D25-4D6C-8E99-D1E39295FAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221D5B47-8040-4D28-8146-C2E8EB647FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221D5B47-8040-4D28-8146-C2E8EB647FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221D5B47-8040-4D28-8146-C2E8EB647FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221D5B47-8040-4D28-8146-C2E8EB647FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFAF0177-0E9E-4428-9805-5FBCCC8F5ACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAF0177-0E9E-4428-9805-5FBCCC8F5ACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAF0177-0E9E-4428-9805-5FBCCC8F5ACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAF0177-0E9E-4428-9805-5FBCCC8F5ACB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6FCFC43E-A19F-46EB-800D-FE2428A8C249} = {84052629-F994-4C6E-9D98-7C6AE791C5D7}
 		{AB3E18D7-5D25-4D6C-8E99-D1E39295FAE9} = {84052629-F994-4C6E-9D98-7C6AE791C5D7}
+		{221D5B47-8040-4D28-8146-C2E8EB647FF8} = {84052629-F994-4C6E-9D98-7C6AE791C5D7}
+		{BFAF0177-0E9E-4428-9805-5FBCCC8F5ACB} = {84052629-F994-4C6E-9D98-7C6AE791C5D7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {701538D1-B8D2-4DA6-9190-48EED531EB79}
